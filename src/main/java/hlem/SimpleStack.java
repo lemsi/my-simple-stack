@@ -17,16 +17,16 @@ public interface SimpleStack {
      * pushes an item onto the top of this stack.
      * null item is allowed.
      */
-    public void push(MySimpleStack.Item item);
+    public void push(Item item);
     /**
      * looks at the object  at the top of this stack without removing it from the stack.
      */
-    public MySimpleStack.Item peek() throws EmptyStackException;
+    public Item peek() throws EmptyStackException;
     /**
      * removes the object at the top of this stack and returns that object as the value of this function.
      * @throws java.util.EmptyStackException if this stack is empty.
      */
-    public MySimpleStack.Item pop() throws EmptyStackException;
+    public Item pop() throws EmptyStackException;
 }
 
 

@@ -2,6 +2,7 @@ package hlem;
 
 
 import java.util.ArrayList;
+import java.util.EmptyStackException;
 
 /**
  * Created by 21607179 on 03/11/2016.
@@ -21,7 +22,7 @@ public class SimpleStackImpl implements SimpleStack {
         return wrappedStack.size();
     }
 
-    public Item peek() throws EmptyStackException{
+    public Item peek() throws EmptyStackException {
         return (Item) wrappedStack.get(0);
     }
 
