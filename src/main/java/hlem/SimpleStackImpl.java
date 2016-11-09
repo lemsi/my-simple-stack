@@ -2,12 +2,13 @@ package hlem;
 
 
 /**import java.util.ArrayList;*/
+import java.util.ArrayList;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
 /**
  * Created by 21607179 on 03/11/2016.
- * Un commentaire répondant à l'exigence #1
+ * Un commentaire répondant à l'exigence numéro1
  */
 public class SimpleStackImpl implements SimpleStack {
     Stack<Object> wrappedStack=new Stack<Object>();
