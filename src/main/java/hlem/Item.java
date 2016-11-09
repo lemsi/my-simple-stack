@@ -12,7 +12,7 @@ public class Item {
 
     /**
      * j'ai modifié ça
-     * commentaire répondant à l'exigence #2
+     * modification issues 1
      * @return
      */
     public Object getValue(){
